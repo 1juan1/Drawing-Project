@@ -24,6 +24,16 @@ canvas.fillRect(490, 120, 115, 30);
 //right wall//////////////////////////////////////////
 canvas.fillStyle = "#5c5c3d";
 canvas.fillRect(1500, 80, 400, 1000);
+
+canvas.fillStyle = "green";
+canvas.fillRect(1500, 60, 400, 30);
+
+canvas.fillStyle = "#333333";
+canvas.fillRect(1600, 400, 10, 150);
+
+canvas.fillStyle = "#333333";
+canvas.fillRect(1700, 150, 10, 1300);
+
 //house
 
 canvas.fillStyle = 	"#D2691E"	 ;
@@ -69,7 +79,6 @@ canvas.fillStyle = "red";
 canvas.arc(900,350,50,0,2*Math.PI,true);
 canvas.fill();
 
-
 canvas.beginPath();
 canvas.fillStyle = "yellow";
 canvas.arc(1070,200,50,0,2*Math.PI,true);
@@ -88,6 +97,43 @@ canvas.fill();
 canvas.beginPath();
 canvas.fillStyle = "#ff9900";
 canvas.arc(1100,400,50,0,2*Math.PI,true);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "#ff3385";
+canvas.arc(920,250,50,0,2*Math.PI,true);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "#751aff";
+canvas.arc(1160,280,50,0,2*Math.PI,true);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "#3366ff";
+canvas.arc(1000,400,50,0,2*Math.PI,true);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "#ff3333";
+canvas.arc(1000,200,50,0,2*Math.PI,true);
+canvas.fill();
+
+
+
+canvas.beginPath();
+canvas.fillStyle = "#ff751a";
+canvas.arc(1150,350,50,0,2*Math.PI,true);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "#ff00ff";
+canvas.arc(1050,330,50,0,2*Math.PI,true);
+canvas.fill();
+
+canvas.beginPath();
+canvas.fillStyle = "#ffff4d";
+canvas.arc(950,350,50,0,2*Math.PI,true);
 canvas.fill();
 ///////////////////////////////////////////water fall ///////////////////////////////////////////
 canvas.fillStyle = "#0099cc";
